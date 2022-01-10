@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "no-sprint",
+  "version": "${version}",
+  "accessWidener": "no-sprint.accesswidener",
+  "name": "NoSprint",
+  "description": "You're unable to sprint.",
+  "authors": [
+    "logwet"
+  ],
+  "contact": {
+    "homepage": "https://github.com/logwet",
+    "sources": "https://github.com/logwet/no-sprint"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/no-sprint/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.logwet.no_sprint.NoSprint"
+    ],
+    "client": [
+    ],
+    "server": [
+    ]
+  },
+  "mixins": [
+    "no-sprint.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": ">=1.16"
+  }
+}
