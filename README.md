@@ -1,5 +1,7 @@
 # NoSprint Mod
 
+Mod that removes your ability to sprint, even underwater. Commissioned by k4yfour.
+
 ## Setup
 
 Put the `jar` file in your mods folder with Fabric Loader installed. This mod does not
